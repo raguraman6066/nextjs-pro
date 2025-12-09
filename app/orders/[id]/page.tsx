@@ -1,6 +1,6 @@
 import React from "react";
 interface SingleOrderPageProps {
-  params: { id: String };
+  params: { id: string };
 }
 async function SingleOrderPage({ params }: SingleOrderPageProps) {
   const { id } = await params;
